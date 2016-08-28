@@ -1,5 +1,5 @@
 # graphical-df
-A terminal based graphical implementation of "df -h" in python.
+A naive terminal based graphical implementation of "df -h" in python.
 Only the primary dev filesystems (usually main disks) are displayed.
 
 Sometimes you just need a graphical implementation of df.
