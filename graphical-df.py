@@ -2,8 +2,8 @@
 
 ##
 #
-# A naive graphical interpretation of the "df -h" command
-# It grabs the primary dev filesystems (usually main disks) using grep
+# A naive graphical interpretation of the "df -hl" command
+# It grabs the primary local filesystems (usually main disks)
 #
 # Author: Willie Stevenson
 #
@@ -21,7 +21,7 @@ def draw(used_space):
 	print "]"
 
 def main():
-	output = subprocess.check_output("df -h | grep /dev/", shell=True)
+	output = subprocess.check_output("df -hl", shell=True)
 
 	for line in output.splitlines():
 
