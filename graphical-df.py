@@ -23,7 +23,7 @@ def draw(used_space):
 def main():
 	output = subprocess.check_output("df -hl", shell=True)
 
-	for line in output.splitlines():
+	for line in output.splitlines()[1:]:
 
 		arr = line.split()
 
