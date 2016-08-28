@@ -5,10 +5,14 @@ Only the primary dev filesystems (usually main disks) are displayed.
 Sometimes you just need a graphical implementation of df.
 
 
+
 ## Run
 
 1. Run `$ python graphical-df.py`. 
 
+## Screenshot
+
+![alt text](screenshot01.png "graphical-df")
 
 ## To Do
 
